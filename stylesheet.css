@@ -159,3 +159,34 @@ pageheading {
 span.highlight {
   background-color: #ffffd0;
 }
+
+/* --- publication keyword tags --- */
+.keyword-tag {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #f09228; /* Matches your link hover color for consistency */
+  border: 1px solid #f09228;
+  padding: 2px 6px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.keyword-list {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+
+/* Predefined Color Palette Classes */
+.c-red    { color: #c97070; font-weight: 600; }
+.c-orange  { color: #d48960; font-weight: 600; }
+.c-gold   { color: #e5c76a; font-weight: 600; }
+.c-green   { color: #739672; font-weight: 600; }
+.c-azure  { color: #78abc3; font-weight: 600; }
+.c-purple  { color: #8a576f; font-weight: 600; }
+.c-darkblue  { color: #2f5982; font-weight: 600; }
+.c-gray  { color: #6a6a64; font-weight: 600; }
